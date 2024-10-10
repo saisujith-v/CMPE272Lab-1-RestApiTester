@@ -70,8 +70,8 @@ Before running this application, ensure you have the following installed on your
           "content": "Hello, World!"
       }
       ```
-      ![Screenshot 2024-10-09 at 8 20 16 PM](https://github.com/user-attachments/assets/e38da47d-b885-4a32-bb2b-9fdb6d3412aa)
 
+    ![Default Greeting](https://github.com/user-attachments/assets/e38da47d-b885-4a32-bb2b-9fdb6d3412aa)
 
 2. **Custom Greeting**:
     - You can customize the greeting by adding a `name` query parameter:
@@ -85,9 +85,8 @@ Before running this application, ensure you have the following installed on your
           "content": "Hello, John!"
       }
       ```
-      ![Screenshot 2024-10-09 at 8 20 06 PM](https://github.com/user-attachments/assets/5fa03b14-f31b-41d1-90c2-53557f58e2c6)
 
-
+    ![Custom Greeting](https://github.com/user-attachments/assets/5fa03b14-f31b-41d1-90c2-53557f58e2c6)
 
 ### Project Structure
 
@@ -95,3 +94,4 @@ Before running this application, ensure you have the following installed on your
   - **model**: Contains the `Greeting` class.
   - **controller**: Contains the `GreetingController` class with the `/greeting` endpoint.
   - **SimpleRestServiceApplication**: The main entry point of the Spring Boot application.
+
